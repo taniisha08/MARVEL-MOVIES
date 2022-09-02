@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvel Movies</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <style>
+        body {
+          background-image: url('https://c4.wallpaperflare.com/wallpaper/784/1003/657/logo-the-avengers-avengers-wallpaper-preview.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+          background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url("https://c4.wallpaperflare.com/wallpaper/784/1003/657/logo-the-avengers-avengers-wallpaper-preview.jpg");
+        }
+    </style>
+</head>
+
+    <body>
+    <!-- header -->
+    <div class="jumbotron text-center">
+        <h1 class="display-4" style="padding-top: 40px;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Marvel_Studios_2016_logo.svg/1024px-Marvel_Studios_2016_logo.svg.png" class="img-thumbnail" alt="..." style="height: 90px; background-color: ghostwhite;"></h1>
+        <hr class="my-4">
+    </div>
+    <div class="container text-center">
+        <button type="button" class="btn btn-outline-secondary">
+            <a class="btn bg-transparent"  data-bs-toggle="collapse" href="#phase1" role="button" >
+                <p class="h2 text-white" style="font-family:fantasy;" onclick="scrollToPhase1()">PHASE 1</p>
+            </a></button>
+        <button type="button" class="btn btn-outline-secondary">
+        <a class="btn bg-transparent"  data-bs-toggle="collapse" href="#phase2" role="button" >
+            <p class="h2 text-white" style="font-family:fantasy;" onclick="scrollToPhase2()">PHASE 2</p>
+        </a></button>
+        <button type="button" class="btn btn-outline-secondary">
+        <a class="btn  bg-transparent" data-bs-toggle="collapse" href="#phase3" role="button">
+            <p class="h2 text-white" style="font-family:fantasy;" onclick="scrollToPhase3()">PHASE 3</p>
+        </a></button>
+        <button type="button" class="btn btn-outline-secondary">
+        <a class="btn  bg-transparent" data-bs-toggle="collapse" href="#phase4" role="button">
+            <p class="h2 text-white" style="font-family:fantasy;" onclick="scrollToPhase4()">PHASE 4</p>
+        </a></button>
+        <hr class="my-4">
+      <div class="collapse " id="phase1" >
+        <div class="card card-body bg-transparent text-light">
+            <p class="h2 text-white" style="font-family:fantasy;">PHASE 1</p>
+            <ul class="list-group list-group-horizontal justify-content-center">
+                <li class="list-group-item bg-transparent text-dark">
+                    <div class="card bg-transparent text-white" style="width: 18rem;">
+                        <img src="https://wallpapercave.com/wp/wp3405080.jpg" class="card-img" alt="...">
+                        <div class="card-body">
+                            <a href="#" class="link-light">
+                                <h5 class="card-title">IRON MAN</h5>
+                                <p class="card-text">(2008)</p>
+                            </a>
+                        </div>
+                      </div>
+                </li>
+                <li class="list-group-item bg-transparent text-dark">
+                    <div class="card bg-transparent text-white" style="width: 18rem;">
+                        <img src="https://w0.peakpx.com/wallpaper/527/781/HD-wallpaper-movie-the-incredible-hulk.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="#" class="link-light">
+                                <h5 class="card-title">The Incredible HULK</h5>
+                                <p class="card-text">(2008)</p>
+                            </a>
+                        </div>
+                      </div>
+                </li>
+                <li class="list-group-item bg-transparent text-dark">
+                    <div class="card bg-transparent text-white" style="width: 18rem;">
+                        <img src="https://wallpaperaccess.com/full/464866.jpg" class="card-img" alt="...">
+                        <div class="card-body">
+                            <a href="#" class="link-light">
+                                <h5 class="card-title">IRON MAN 2</h5>
+                          <p class="card-text">(2010)</p>
+                            </a>
+                        </div>
+                      </div>
+                </li>
+              </ul>
+              <ul class="list-group list-group-horizontal justify-content-center">
+                <li class="list-group-item bg-transparent text-dark">
+                    <div class="card bg-transparent text-white" style="width: 18rem;">
+                        <img src="https://wallpaperaccess.com/full/645142.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="#" class="link-light">
+                                <h5 class="card-title">THOR</h5>
+                                <p class="card-text">(2011)</p>
+                            </a>
+                        </div>
+                      </div>
+                </li>
+                <li class="list-group-item bg-transparent text-dark">
+                    <div class="card bg-transparent text-white" style="width: 18rem;">
+                        <img src="https://cdn.mos.cms.futurecdn.net/hjJmqHnszVarJMnKgoKdq5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="#" class="link-light">
+                                <h5 class="card-title">Captain America: The First Avenger </h5>
+                                <p class="card-text">(2011)</p>
+                            </a>
+                        </div>
+                      </div>
+                </li>
+                <li class="list-group-item bg-transparent text-dark">
+                    <div class="card bg-transparent text-white" style="width: 18rem;">
+                        <img src="https://cdn.wallpapersafari.com/19/14/XwGS7a.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="#" class="link-light">
+                                <h5 class="card-title">The Avengers</h5>
+                          <p class="card-text">(2012)</p>
+                            </a>
+                        </div>
+                      </div>
+                </li>
+              </ul>
+              <hr class="my-4 text-light">
+              <!-- phase 2 -->
+        </div>
+      </div>
+      <div class="collapse" id="phase2" >
+        <p class="h2 text-white" style="font-family:fantasy;">PHASE 2</p>
+        <ul class="list-group list-group-horizontal justify-content-center">
+            <li class="list-group-item bg-transparent text-dark">
+                <div class="card bg-transparent text-white" style="width: 18rem;">
+                    <img src="https://wallpapercave.com/wp/ejT2kJO.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="#" class="link-light">
+                            <h5 class="card-title">Iron Man 3</h5>
+                            <p class="card-text">(2013)</p>
+                        </a>
+                    </div>
+                  </div>
+            </li>
+            <li class="list-group-item bg-transparent text-dark">
+                <div class="card bg-transparent text-white" style="width: 18rem;">
+                    <img src="https://wallpaperaccess.com/full/1653479.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="#" class="link-light">
+                            <h5 class="card-title">Thor: The Dark World </h5>
+                            <p class="card-text">(2013)</p>
+                        </a>
+                    </div>
+                  </div>
+            </li>
+            <li class="list-group-item bg-transparent text-dark">
+                <div class="card bg-transparent text-white" style="width: 18rem;">
+                    <img src="https://c4.wallpaperflare.com/wallpaper/650/221/173/captain-america-the-winter-soldier-samuel-l-jackson-chris-evans-scarlett-johansson-wallpaper-preview.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="#" class="link-light">
+                            <h5 class="card-title">Captain America: The Winter Soldier</h5>
+                      <p class="card-text">(2014)</p>
+                        </a>
+                    </div>
+                  </div>
+            </li>
+          </ul>
+          <ul class="list-group list-group-horizontal justify-content-center">
+            <!-- list item 1 -->
+            <li class="list-group-item bg-transparent text-dark">
+                <div class="card bg-transparent text-white" style="width: 18rem;">
+                    <img src="https://www.wallpaperflare.com/static/690/780/903/guardians-of-the-galaxy-vin-diesel-groot-zoe-saldana-wallpaper.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="#" class="link-light">
+                            <h5 class="card-title">Guardians of the Galaxy</h5>
+                            <p class="card-text">(2014)</p>
+                        </a>
+                    </div>
+                  </div>
+            </li>
+            <li class="list-group-item bg-transparent text-dark">
+                <div class="card bg-transparent text-white" style="width: 18rem;">
+                    <img src="https://townsquare.media/site/442/files/2015/04/avengers-tag.jpg?w=980&q=75" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="#" class="link-light">
+                            <h5 class="card-title">Avengers: Age of Ultron</h5>
+                            <p class="card-text">(2015)</p>
+                        </a>
+                    </div>
+                  </div>
+            </li>
+            <li class="list-group-item bg-transparent text-dark">
+                <div class="card bg-transparent text-white" style="width: 18rem;">
+                    <img src="https://m.media-amazon.com/images/M/MV5BNjZkMTg3MGQtYTg0MS00ZDcwLTgwYjctZWI4NzRkYTMwOTkyXkEyXkFqcGdeQXVyNTc3MjUzNTI@._V1_.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="#" class="link-light">
+                        <h5 class="card-title">Ant-Man</h5>
+                        <p class="card-text">(2015)</p>
+                        </a>
+                    </div>
+                  </div>
+            </li>
+          </ul>
+          <hr class="my-4 text-light">
+      </div>
+      <div class="collapse" id="phase3" >
+        <p class="h2 text-white" style="font-family:fantasy;">PHASE 3</p>
+        <ul class="list-group list-group-horizontal justify-content-center">
+            <li class="list-group-item bg-transparent text-dark">
+                <div class="card bg-transparent text-white" style="width: 18rem;">
+                    <img src="https://a.ltrbxd.com/resized/sm/upload/58/xd/g0/o7/captain-america-civil-war-1200-1200-675-675-crop-000000.jpg?k=5e5383e670" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="#" class="link-light">
+                            <h5 class="card-title">Captain America: Civil War</h5>
+                            <p class="card-text">(2016)</p>
+                        </a>
+                    </div>
+                  </div>
+            </li>
+            <li class="list-group-item bg-transparent text-dark">
+                <div class="card bg-transparent text-white" style="width: 18rem;">
+                    <img src="https://hcmoviereviews.files.wordpress.com/2016/10/doctor-strange-quad-poster.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="#" class="link-light">
+                            <h5 class="card-title">Doctor Strange</h5>
+                            <p class="card-text">(2016)</p>
+                        </a>
+                    </div>
+                  </div>
+            </li>
+            <li class="list-group-item bg-transparent text-dark">
+                <div class="card bg-transparent text-white" style="width: 18rem;">
+                    <img src="https://cdn1.edgedatg.com/aws/v2/abc/GuardiansoftheGalaxyVol2/showimages/2ff1265d9b80d5136a17ec68aac00852/1600x900-Q90_2ff1265d9b80d5136a17ec68aac00852.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="#" class="link-light">
+                            <h5 class="card-title">Guardians of the Galaxy 2</h5>
+                      <p class="card-text">(2017)</p>
+                        </a>
+                    </div>
+                  </div>
+            </li>
+          </ul>
+          <ul class="list-group list-group-horizontal justify-content-center">
+            <!-- list item 1 -->
+            <li class="list-group-item bg-transparent text-dark">
+                <div class="card bg-transparent text-white" style="width: 18rem;">
+                    <img src="https://www.adgully.com/img/800/201807/image-3.png.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="#" class="link-light">
+                            <h5 class="card-title">Spider-Man: Homecoming</h5>
+                            <p class="card-text">(2017)</p>
+                        </a>
+                    </div>
+                  </div>
+            </li>
+            <li class="list-group-item bg-transparent text-dark">
+                <div class="card bg-transparent text-white" style="width: 18rem;">
+                    <img src="https://www.vintagemovieposters.co.uk/wp-content/uploads/2020/11/IMG_0667-scaled.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="#" class="link-light">
+                            <h5 class="card-title">Thor: Ragnarok</h5>
+                            <p class="card-text">(2017)</p>
+                        </a>
+                    </div>
+                  </div>
+            </li>
+            <li class="list-group-item bg-transparent text-dark">
+                <div class="card bg-transparent text-white" style="width: 18rem;">
+                    <img src="https://talenthouse-res.cloudinary.com/image/upload/c_limit,f_auto,fl_progressive,h_1280,w_1280/v1549537617/user-478229/profile/ehwhrasslsningzkrov8.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="#" class="link-light">
+                        <h5 class="card-title">Black Panther</h5>
+                        <p class="card-text">(2017)</p>
+                        </a>
+                    </div>
+                  </div>
+            </li>
+          </ul>
+          <ul class="list-group list-group-horizontal justify-content-center">
+            <!-- list item 1 -->
+            <li class="list-group-item bg-transparent text-dark">
+                <div class="card bg-transparent text-white" style="width: 18rem;">
+                    <img src="https://i.ebayimg.com/images/g/ICYAAOSwfnlgm8qD/s-l400.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="#" class="link-light">
+                            <h5 class="card-title"> Avengers: Infinity War</h5>
+                            <p class="card-text">(2018)</p>
+                        </a>
+                    </div>
+                  </div>
+            </li>
+            <li class="list-group-item bg-transparent text-dark">
+                <div class="card bg-transparent text-white" style="width: 18rem;">
+                    <img src="https://www.themoviedb.org/t/p/original/xf8UcDthIisg1x08eovdebOL3Nw.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="#" class="link-light">
+                            <h5 class="card-title"> Ant-Man and the Wasp</h5>
+                            <p class="card-text">(2018)</p>
+                        </a>
+                    </div>
+                  </div>
+            </li>
+            <li class="list-group-item bg-transparent text-dark">
+                <div class="card bg-transparent text-white" style="width: 18rem;">
+                    <img src="https://static.posters.cz/image/750/poster/captain-marvel-epic-i71851.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="#" class="link-light">
+                        <h5 class="card-title">Captain Marvel</h5>
+                        <p class="card-text">(2019)</p>
+                        </a>
+                    </div>
+                  </div>
+            </li>
+          </ul>
+          <ul class="list-group list-group-horizontal justify-content-center">
+            <!-- list item 1 -->
+            <li class="list-group-item bg-transparent text-dark">
+                <div class="card bg-transparent text-white" style="width: 18rem;">
+                    <img src="https://m.media-amazon.com/images/I/81ExhpBEbHL._SL1371_.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="#" class="link-light">
+                            <h5 class="card-title">Avengers: Endgame</h5>
+                            <p class="card-text">(2019)</p>
+                        </a>
+                    </div>
+                  </div>
+            </li>
+            <li class="list-group-item bg-transparent text-dark">
+                <div class="card bg-transparent text-white" style="width: 18rem;">
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/91A+eXyGmvL._RI_.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="#" class="link-light">
+                            <h5 class="card-title">Spider-Man: Far From Home</h5>
+                            <p class="card-text">(2019)</p>
+                        </a>
+                    </div>
+                  </div>
+            </li>
+            <!-- <li class="list-group-item bg-transparent text-dark">
+                <div class="card bg-transparent text-white" style="width: 18rem;">
+                    <img src="https://m.media-amazon.com/images/M/MV5BNjZkMTg3MGQtYTg0MS00ZDcwLTgwYjctZWI4NzRkYTMwOTkyXkEyXkFqcGdeQXVyNTc3MjUzNTI@._V1_.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="#" class="link-light">
+                        <h5 class="card-title">Black Panther</h5>
+                        <p class="card-text">(2017)</p>
+                        </a>
+                    </div>
+                  </div>
+            </li> -->
+          </ul>
+
+      </div>
+      <div class="collapse" id="phase4" >
+        <p class="h2 text-white" style="font-family:fantasy;">PHASE 4</p>
+        <ul class="list-group list-group-horizontal justify-content-center">
+            <li class="list-group-item bg-transparent text-dark">
+                <div class="card bg-transparent text-white" style="width: 18rem;">
+                    <img src="https://wallpapercave.com/wp/ejT2kJO.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="#" class="link-light">
+                            <h5 class="card-title">WandaVision (Disney Plus series)</h5>
+                            <p class="card-text">(2021)</p>
+                        </a>
+                    </div>
+                  </div>
+            </li>
+            <li class="list-group-item bg-transparent text-dark">
+                <div class="card bg-transparent text-white" style="width: 18rem;">
+                    <img src="https://wallpaperaccess.com/full/1653479.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="#" class="link-light">
+                            <h5 class="card-title">Falcon and the Winter Soldier (Disney Plus series)</h5>
+                            <p class="card-text">(Disney Plus series, 2021)</p>
+                        </a>
+                    </div>
+                  </div>
+            </li>
+            <li class="list-group-item bg-transparent text-dark">
+                <div class="card bg-transparent text-white" style="width: 18rem;">
+                    <img src="https://c4.wallpaperflare.com/wallpaper/650/221/173/captain-america-the-winter-soldier-samuel-l-jackson-chris-evans-scarlett-johansson-wallpaper-preview.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="#" class="link-light">
+                            <h5 class="card-title"> Loki season 1</h5>
+                      <p class="card-text">(Disney Plus series)</p>
+                        </a>
+                    </div>
+                  </div>
+            </li>
+          </ul>
+          <ul class="list-group list-group-horizontal justify-content-center">
+            <!-- list item 1 -->
+            <li class="list-group-item bg-transparent text-dark">
+                <div class="card bg-transparent text-white" style="width: 18rem;">
+                    <img src="https://www.wallpaperflare.com/static/690/780/903/guardians-of-the-galaxy-vin-diesel-groot-zoe-saldana-wallpaper.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="#" class="link-light">
+                            <h5 class="card-title"> What If...? </h5>
+                            <p class="card-text">(Disney Plus series, 2021)</p>
+                        </a>
+                    </div>
+                  </div>
+            </li>
+            <li class="list-group-item bg-transparent text-dark">
+                <div class="card bg-transparent text-white" style="width: 18rem;">
+                    <img src="https://townsquare.media/site/442/files/2015/04/avengers-tag.jpg?w=980&q=75" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="#" class="link-light">
+                            <h5 class="card-title">Shang-Chi and the Legend of the Ten Rings</h5>
+                            <p class="card-text">(2021))</p>
+                        </a>
+                    </div>
+                  </div>
+            </li>
+            <li class="list-group-item bg-transparent text-dark">
+                <div class="card bg-transparent text-white" style="width: 18rem;">
+                    <img src="https://m.media-amazon.com/images/M/MV5BNjZkMTg3MGQtYTg0MS00ZDcwLTgwYjctZWI4NzRkYTMwOTkyXkEyXkFqcGdeQXVyNTc3MjUzNTI@._V1_.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="#" class="link-light">
+                        <h5 class="card-title">Eternals</h5>
+                        <p class="card-text">(2021)</p>
+                        </a>
+                    </div>
+                  </div>
+            </li>
+          </ul>
+          <ul class="list-group list-group-horizontal justify-content-center">
+            <!-- list item 1 -->
+            <li class="list-group-item bg-transparent text-dark">
+                <div class="card bg-transparent text-white" style="width: 18rem;">
+                    <img src="https://www.wallpaperflare.com/static/690/780/903/guardians-of-the-galaxy-vin-diesel-groot-zoe-saldana-wallpaper.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="#" class="link-light">
+                            <h5 class="card-title">Hawkeye</h5>
+                            <p class="card-text">(Disney Plus series, 2021)</p>
+                        </a>
+                    </div>
+                  </div>
+            </li>
+            <li class="list-group-item bg-transparent text-dark">
+                <div class="card bg-transparent text-white" style="width: 18rem;">
+                    <img src="https://townsquare.media/site/442/files/2015/04/avengers-tag.jpg?w=980&q=75" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="#" class="link-light">
+                            <h5 class="card-title">Spider-Man: No Way Home</h5>
+                            <p class="card-text">(2021)</p>
+                        </a>
+                    </div>
+                  </div>
+            </li>
+            <li class="list-group-item bg-transparent text-dark">
+                <div class="card bg-transparent text-white" style="width: 18rem;">
+                    <img src="https://m.media-amazon.com/images/M/MV5BNjZkMTg3MGQtYTg0MS00ZDcwLTgwYjctZWI4NzRkYTMwOTkyXkEyXkFqcGdeQXVyNTc3MjUzNTI@._V1_.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="#" class="link-light">
+                        <h5 class="card-title">Moon Knight</h5>
+                        <p class="card-text"> (Disney Plus series, 2022)</p>
+                        </a>
+                    </div>
+                  </div>
+            </li>
+          </ul>
+          <ul class="list-group list-group-horizontal justify-content-center">
+            <!-- list item 1 -->
+            <li class="list-group-item bg-transparent text-dark">
+                <div class="card bg-transparent text-white" style="width: 18rem;">
+                    <img src="https://www.wallpaperflare.com/static/690/780/903/guardians-of-the-galaxy-vin-diesel-groot-zoe-saldana-wallpaper.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="#" class="link-light">
+                            <h5 class="card-title">Black Widow (2021)</h5>
+                            <p class="card-text">(2014)</p>
+                        </a>
+                    </div>
+                  </div>
+            </li>
+            <li class="list-group-item bg-transparent text-dark">
+                <div class="card bg-transparent text-white" style="width: 18rem;">
+                    <img src="https://townsquare.media/site/442/files/2015/04/avengers-tag.jpg?w=980&q=75" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="#" class="link-light">
+                            <h5 class="card-title"> Doctor Strange in the Multiverse of Madness </h5>
+                            <p class="card-text">(2022)</p>
+                        </a>
+                    </div>
+                  </div>
+            </li>
+            <li class="list-group-item bg-transparent text-dark">
+                <div class="card bg-transparent text-white" style="width: 18rem;">
+                    <img src="https://m.media-amazon.com/images/M/MV5BNjZkMTg3MGQtYTg0MS00ZDcwLTgwYjctZWI4NzRkYTMwOTkyXkEyXkFqcGdeQXVyNTc3MjUzNTI@._V1_.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="#" class="link-light">
+                        <h5 class="card-title">Thor: Love and Thunder (2022) </h5>
+                        <p class="card-text">(2022)</p>
+                        </a>
+                    </div>
+                  </div>
+            </li>
+          </ul>
+
+      </div>
+     </div>
+    <div class="container" id="gallery">
+    <!-- input url -->
+        <div class="w-75 container">
+            <!-- <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="enter image url" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+              <button class="btn btn-lg btn-secondary" id="url" onclick="addImage()">ADD IMAGE</button>
+            </div> -->
+ <!-- corousel -->
+ <div id="carouselExampleFade" class="carousel slide carousel-fade text-center" data-bs-ride="carousel" onload="buildCarousel()">
+    <div class="carousel-inner" id="carousel">
+        <div class="carousel-item active">
+            <img src="https://wallpaperaccess.com/full/54688.jpg" class="d-block w-100" alt="...">
+          </div>
+      <div class="carousel-item">
+        <img src="https://assets.vogue.in/photos/5ce412593bf9b4495fb1a8be/master/pass/Everything-you-need-to-know-before-watching-Marvel-movies-this-year.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://as01.epimg.net/meristation_en/imagenes/2022/04/07/news/1649303165_427586_1649303223_noticia_normal.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <hr class="my-4 text-light">
+    <!-- image thumbnail  and phases with movies-->
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" placeholder="enter marvel-image url for the slideshow" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+      <button class="btn btn-lg btn-secondary" id="url" onclick="addImage()">ADD IMAGE</button>
+    </div>
+    <p id="error" class="text-white"></p>
+    <hr class="my-4 text-light">
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div><br>
+<!-- Gallery -->
+<div class="row">
+    <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+      <img
+        src="https://m.media-amazon.com/images/I/61nIxrLL8QL._SY679_.jpg"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="iron man"
+      />
+
+      <img
+        src="https://render.fineartamerica.com/images/rendered/default/poster/5/8/break/images/artworkimages/medium/3/angry-hulk-diego-august.jpg"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="hulk"
+      />
+    </div>
+
+    <div class="col-lg-4 mb-4 mb-lg-0">
+      <img
+        src="https://m.media-amazon.com/images/I/91TIDwdYcbL._SY550_.jpg"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="thor"
+      />
+
+      <img
+        src="https://rukminim1.flixcart.com/image/416/416/ksru0sw0/poster/a/q/d/medium-captain-america-full-hd-poster-250gsm-asstore-cpt5-original-imag69f3nbuzrbjp.jpeg?q=70"
+        class="w-100 shadow-1-strong rounded mb-4"
+    y6alt="captain america"
+      />
+    </div>
+
+    <div class="col-lg-4 mb-4 mb-lg-0">
+      <img
+        src="https://rukminim1.flixcart.com/image/416/416/kmns7m80/poster/s/1/u/medium-the-avengers-marvel-maxi-origins-jumbo-medium-size-original-imagfgb6zyaazhtg.jpeg?q=70"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="black widow"
+      />
+
+      <img
+        src="https://i.pinimg.com/736x/27/48/1a/27481afbb2335dbcbadd87bab3f02052.jpg"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Doctor Strange"
+      />
+
+    </div>
+
+  </div>
+  <!-- Gallery -->
+</div>
+    </div>
+<!-- modal windows  -->
+   <script src="script.js"></script>
+</body>
+</html>
